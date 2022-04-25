@@ -21,15 +21,15 @@ module.exports = {
 			network_id: 4
 		},
 
-		polygon mumbai: {
-			provider: function () {
-				return new HDWalletProvider(
-					[process.env.DEPLOYER_PRIVATE_KEY],
-					`https://rpc-mumbai.maticvigil.com/`
-				)
-			},
-			network_id: 80001
-		},
+		// polygon mumbai: {
+		// 	provider: function () {
+		// 		return new HDWalletProvider(
+		// 			[process.env.DEPLOYER_PRIVATE_KEY],
+		// 			`https://rpc-mumbai.maticvigil.com/`
+		// 		)
+		// 	},
+		// 	network_id: 80001
+		// },
 
 		matic: {
 			provider: function () {

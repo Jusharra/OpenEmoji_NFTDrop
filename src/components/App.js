@@ -4,7 +4,7 @@ import Countdown from 'react-countdown'
 import Web3 from 'web3'
 
 // Import Images + CSS
-import logo from '../images/logo.png'
+import logo from '../images/logo-dark.png'
 import happyImage from '../images/happy.png'
 import excitedImage from '../images/excited.png'
 import sadImage from '../images/sad.png'
@@ -147,7 +147,7 @@ function App() {
 			<nav className="navbar fixed-top mx-3">
 				<a
 					className="navbar-brand col-sm-3 col-md-2 mr-0 mx-4"
-					href="http://www.dappuniversity.com/bootcamp"
+					href="https://first-choicecyber.com"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
@@ -174,7 +174,7 @@ function App() {
 						<p className="countdown">
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} />}
 						</p>
-						<p>Welcome! Mint your free emoji (not including gas fees) on 11/04/21</p>
+						<p>Welcome! Mint your free emoji (not including gas fees) on 6/02/22</p>
 					</Col>
 				</Row>
 				<Row className="my-4">
